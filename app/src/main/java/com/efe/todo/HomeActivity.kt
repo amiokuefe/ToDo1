@@ -13,7 +13,7 @@ class HomeActivity : AppCompatActivity() {
 
         usernameDisplay = findViewById(R.id.usernameDisplay)
 
-        usernameDisplay.text = intent.getStringExtra("Welcome Sonia")
+        usernameDisplay.text = "Welcome, ${intent.getStringExtra("Welcome Sonia")}"
         // the above reminds me of getElementsById.textContent
         // Also the above line of code (RHS) fetches the username variable from MainActivity.kt
     }
