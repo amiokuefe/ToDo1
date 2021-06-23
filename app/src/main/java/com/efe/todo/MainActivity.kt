@@ -59,4 +59,5 @@ class MainActivity : AppCompatActivity() {
         return false
         //the above is the else statement
     } // This function just validates the user input
+
 }
